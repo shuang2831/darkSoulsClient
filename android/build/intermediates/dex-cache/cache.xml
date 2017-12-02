@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stan\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_1fc0a1f8f79b6abd8d62d275e9a013906311ceb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Apps\darkSouls\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_160940855760684b1d363385de79b266b334a2d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Apps\darkSouls\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_007401d55170801bf899e8f2903bf75377cbb33b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stan\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_35a916edaad34ad4648c6b0f6b969d708e7d98a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Apps\darkSouls\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_44cedc45c85c5730329e8e37c7f9e6e3ac37c796.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Apps\darkSouls\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_61af60fb88b2607ff5c9b0c03147ddf5225e497c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_89f4f35175718f5a23dfba4d22947916efcde08d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Apps\darkSouls\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_0a6f105a51f7f831826c4e66ea6775170f65321c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Apps\darkSouls\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_eda30b1ae3657670f244c509c694c84bde36b7de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Apps\darkSouls\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_152bc24e1792c6ff767b2e14ec3621f558c80003.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Apps\darkSouls\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_da71eb2baf47f4eb3879caf80c46747df1c02453.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stan\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_821b6092b7ca32659205cb69fe55035df6b06d26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Apps\darkSouls\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_ea4c622d6d14557eb951393e0720c53ef8440b08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Apps\darkSouls\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.49.1\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_7e0308b8a12d43125a85ac5da8856e9e22897df4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Apps\darkSouls\android\app\build\intermediates\exploded-aar\darkSouls\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\darkSouls-react-native-vector-icons-unspecified_46317399dc8c4a08a414787affdbd4dac62388f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stan\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_96415703c945e47a1da99588896cf268d4d0c87b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Apps\darkSouls\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_3c43003f7407c469876d0605a86fee81d13dce71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stan\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_933f0b11533b448af4d73509990c08e7edaa3094.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stan\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_bab9410c47901ade4d6dee81c010e1bce95109b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Apps\darkSouls\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_3f05e0c39ea654818a37c35179289b61088ae1af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stan\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_c814941ceeeed901ef0f9ff6d0c4a4ad5031aa32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Apps\darkSouls\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.49.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="79211dda47231d54c25be9dcde75cb3a4832e032">
+        <dex dex="D:\Apps\darkSouls\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.49.1_6fe4fda9cdb885724dbff50e1562579afa2c61d0.jar" />
+    </item>
+
+</items>
