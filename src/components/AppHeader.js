@@ -21,8 +21,8 @@ import { connect } from "react-redux";
 
 import Icon from "react-native-vector-icons/SimpleLineIcons";
 
-const NAVBAR_HEIGHT = 64;
-const STATUS_BAR_HEIGHT = Platform.select({ ios: 20, android: 24 });
+const NAVBAR_HEIGHT = 40;
+const STATUS_BAR_HEIGHT = Platform.select({ ios: 20, android: 0 });
 
 class AppHeader extends PureComponent {
   constructor(props) {

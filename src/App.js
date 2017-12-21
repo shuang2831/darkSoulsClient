@@ -13,9 +13,10 @@ import {
   Text,
   View,
   Animated,
-  ActivityIndicator
+  ActivityIndicator,
+  StatusBar
 } from "react-native";
-import { MarkCard } from "./components/MarkCard";
+import MarkCard from "./components/MarkCard";
 import AppHeader from "./components/AppHeader";
 import InputModal from "./components/InputModal";
 import { connect } from "react-redux";
@@ -30,7 +31,7 @@ const instructions = Platform.select({
 });
 
 const NAVBAR_HEIGHT = 64;
-const STATUS_BAR_HEIGHT = Platform.select({ ios: 20, android: 24 });
+const STATUS_BAR_HEIGHT = Platform.select({ ios: 0, android: 0 });
 
 const AnimatedFlatList = Animated.createAnimatedComponent(FlatList);
 
@@ -113,7 +114,9 @@ class App extends PureComponent {
     navigator.geolocation.clearWatch(this.watchId);
   }
 
-  _renderItem = ({ item }) => <MarkCard message={item.Message} />;
+  _renderItem = ({ item }) => (
+    <MarkCard message={item.Message} userId={item.UserId} />
+  );
 
   render() {
     console.log(this.props.markCards);
@@ -132,7 +135,9 @@ class App extends PureComponent {
 
     return (
       <Animated.View>
+        <StatusBar backgroundColor="black" barStyle="light-content" />
         <AnimatedFlatList
+          showsVerticalScrollIndicator={false}
           contentContainerStyle={styles.listContainer}
           data={this.props.markCards}
           renderItem={this._renderItem}
@@ -153,6 +158,8 @@ class App extends PureComponent {
         <InputModal
           modalVisible={this.state.modalVisible}
           setModalVisible={this.setModalVisible}
+          latitude={this.state.latitude}
+          longitude={this.state.longitude}
         />
       </Animated.View>
     );
@@ -171,7 +178,7 @@ const mapDispatchToProps = dispatchAction => {
   return {
     getMarkCards: locationData =>
       dispatchAction(getMarkCardsFromApi(locationData)),
-    postMarkCard: message => dispatch(postMarkCard(message))
+    postMarkCard: message => dispatchAction(postMarkCard(message))
     //setContact: contact => dispatchAction(setContactDetails(contact))
   };
 };
@@ -208,7 +215,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     height: NAVBAR_HEIGHT,
     justifyContent: "center",
-    paddingTop: STATUS_BAR_HEIGHT
+    paddingTop: 0
   },
   contentContainer: {
     paddingTop: NAVBAR_HEIGHT

@@ -19,10 +19,18 @@ export function getMarkCardFailed(msg = null) {
   };
 }
 
-export function postMarkCardSuccess(markCard) {
+export function postMarkCardToApi(messageData) {
   return dispatch => {
-    postMarkCard(markCard)
-      .then(data => console.log(data))
+    dispatch(startLoading());
+    postMarkCard(messageData)
+      .then(data => {
+        dispatch(
+          getMarkCardsFromApi({
+            longitude: messageData.longitude,
+            latitude: messageData.latitude
+          })
+        );
+      })
       .catch(err => console.log(err));
   };
 }

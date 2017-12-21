@@ -8,47 +8,47 @@ const initialState = {
     {
       name: "brynn",
       avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg",
-      key: 1
+      MessageId: 1
     },
     {
       name: "brddfynn",
       avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg",
-      key: 2
+      MessageId: 2
     },
     {
       name: "brydfdfnn",
       avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg",
-      key: 3
+      MessageId: 3
     },
     {
       name: "brynn",
       avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg",
-      key: 4
+      MessageId: 4
     },
     {
       name: "brddfynn",
       avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg",
-      key: 5
+      MessageId: 5
     },
     {
       name: "brydfdfnn",
       avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg",
-      key: 6
+      MessageId: 6
     },
     {
       name: "brynn",
       avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg",
-      key: 7
+      MessageId: 7
     },
     {
       name: "brddfynn",
       avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg",
-      key: 8
+      MessageId: 8
     },
     {
       name: "brydfdfnn",
       avatar: "https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg",
-      key: 9
+      MessageId: 9
     }
   ]
 };

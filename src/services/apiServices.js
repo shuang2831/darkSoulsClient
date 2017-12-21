@@ -14,13 +14,15 @@ export function getMarkCards(locationData) {
 }
 
 export function postMarkCard(message) {
-  var request = new Request("`http://192.168.0.8:8080/api/message", {
+  var request = new Request(`http://192.168.0.8:8080/api/message`, {
     method: "POST",
     headers: new Headers({
-      "Content-Type": "text/plain"
+      "Content-Type": "application/json"
     }),
     body: JSON.stringify(message)
   });
 
-  fetch(request).then(response => response.json());
+  return fetch(request)
+    .then(ApiUtils.checkStatus)
+    .then(response => response.json());
 }
